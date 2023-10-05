@@ -32,7 +32,7 @@ function showActiveStep()
     else if ($('#step5').is(':visible'))
     {
         $(".step-bar .fill").css('width', '80%');
-        $(".sideimg").attr('src','quiz_files/images/side-1.png')
+        $(".sideimg").attr('src','quiz_files/side-1.png')
 
     }
     else
@@ -136,7 +136,7 @@ $(document).ready(function()
             
         (function (el) {
             setTimeout(function () {
-                el.children().remove('.reveal');
+                // el.children().remove('.reveal');
             }, 3000);
             }(showErr()));
             
